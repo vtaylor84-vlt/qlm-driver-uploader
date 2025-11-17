@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: './index.html'  // Fixes entry point resolution
+      input: 'index.html'   // ← ONLY THIS LINE MATTERS
     }
   }
 });
