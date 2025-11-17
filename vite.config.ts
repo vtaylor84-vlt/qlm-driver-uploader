@@ -7,11 +7,6 @@ export default defineConfig({
     rollupOptions: {
       input: './index.html'
     },
-    outDir: 'dist',
-    sourcemap: true
-  },
-  server: {
-    port: 3000,
-    open: true
+    outDir: 'dist'
   }
 })
